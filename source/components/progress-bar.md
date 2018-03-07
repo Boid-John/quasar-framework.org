@@ -32,7 +32,9 @@ framework: {
 | `stripe` | Boolen | If set to `true`, the progress bar will be striped. |
 | `animate` | Boolean | If set to `true`, the progress bar will be animated. |
 | `indeterminate` | Boolean | If set to `true`, the state is indeterminate, meaning it is unknown when the progress will stop. |
-| `height` | String | CSS unit for height of QProgress. |
+| `
+
+` | String | CSS unit for height of QProgress. |
 
 Percentage and buffer, being percentage values, must be between 0 and 100, and `percentage` + `buffer` must be lower or equal to 100. If `percentage` is outside this interval the component will parse it and make it be within the interval.
 
